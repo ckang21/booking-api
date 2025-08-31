@@ -2,6 +2,7 @@ package com.example.demo.domain.entity;
 
 import jakarta.persistence.*;
 
+
 @Entity
 @Table(uniqueConstraints = @UniqueConstraint(columnNames = "event_id"))
 public class Booking {
